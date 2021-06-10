@@ -98,6 +98,10 @@ a {
     float: left;
     width: 50%;
 }
+.lessonrizky {
+    float: left;
+    width: 100%;
+}
 .lesson-img {
     position: relative;
     margin-top: 40px;
