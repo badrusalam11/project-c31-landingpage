@@ -95,8 +95,10 @@ a {
     text-align: center;
 }
 .lesson {
-    float: left;
-    width: 50%;
+    /* float: left;
+    width: 50%; */
+    width: auto;
+    display: inline-block;  
 }
 .lessonrizky {
     float: left;
