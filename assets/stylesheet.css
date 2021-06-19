@@ -128,7 +128,7 @@
     color: white;
     float: right;
     font-size: 25px;
-    padding: 21px 0;
+    padding: 13px 5px;
     /* Gantikan property display ke none */
     display: none;
   }
@@ -157,8 +157,8 @@
     width: 20%;
   }
   .lesson:hover{
-    background-color: grey;
-    opacity: 10%;
+    background-color: #f7f7f7;
+    opacity: 0.7;
     cursor:pointer;
   }
   
