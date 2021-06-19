@@ -1,6 +1,14 @@
 * {
     box-sizing: border-box;
 }
+
+html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
 body {
     margin: 0;
     font-family: "Lucida Grande";
@@ -13,7 +21,7 @@ a {
 }
 .container {
     max-width: 1170px;
-    width: 100%;
+    /* width: 100%; */
     padding: 0 15px;
     margin: 0 auto;
     text-align: center;
@@ -37,7 +45,7 @@ a {
 }
 .header-right {
     float: right;
-    margin-right: 25px;
+    margin-right: -25px;
 }
 .header-right a{
     line-height: 65px;
@@ -47,6 +55,10 @@ a {
     float: left;
     transition: all 0.5s;
 }
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
 .top-wrapper {
     padding: 180px 0 100px 0;
     background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/white-wall-no-text-zoom-background-design-template-97c17d6215f14409c88b085599f9ac86_screen.jpg?ts=1586909055);
@@ -88,7 +100,8 @@ a {
     
 }
 .lesson-wrapper {
-    padding-bottom: 1000px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     padding-left: 5%;
     padding-right: 5%;
     background-color: #f7f7f7;
@@ -139,6 +152,6 @@ a {
     color: white;
     float: right;
     font-size: 25px;
-    padding: 21px 0;
-    display:none;
+    padding: 10px 0;
+    display: none;
 }
