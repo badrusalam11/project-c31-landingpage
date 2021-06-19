@@ -121,10 +121,12 @@ a {
     position: relative;
     margin-top: 40px;
     
+    
 }
 .lesson-img img {
     height: 50%;
     height: 400px;
+    
 }
 .txt-content {
     width: 80%;

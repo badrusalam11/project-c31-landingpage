@@ -21,19 +21,10 @@
      .footer p {
          font-size: 12px;
      } 
-     .lesson-ilham img {
-         height: 300px;
-     }
-     .lesson-badru img {
-         height : 230px;
+     .lesson img{
+         height: 180px;
      }
      .lesson-rizky img {
-         height: 200px;
-     }
-     .lesson-lismu img {
-         height: 320px;
-     }
-     .lesson-rahman img {
-         height: 330px;
+         height: 180px;
      }
  }
